@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.menu {
+    flex-direction: column;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -33,9 +37,7 @@ body {
     background: beige;
     flex: 1;
   }
-  li > ul {
-      flex-direction: column;
-  }
+ 
   header, footer {
     background: yellowgreen;
     height: 20vh;
