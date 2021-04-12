@@ -10,40 +10,54 @@
     <meta name="keywords" content="php">
     <meta name="description" content="Projeto Parte 1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>Layouts</title>
 </head>
-<body class="flex-container">
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./layouts.html">Layouts</a>
-        <a href="./multimedia.html">Multimédia</a>
-        <a href="./quizz.html">Formulário</a>
-        <a href="./html5-css.html">HTML5 & CSS</a>
-    </nav>
-
-    <div class="col-2">
-        <header>
+<body>
+    <div class="grid-container">
+        <header class="item1">
             <h1>Layouts</h1>                    
         </header>
-        <main class="content flex-container">
+        <nav class="item2">
+            <a href="./index.html">Home</a>
+            <a href="./layouts.html">Layouts</a>
+            <a href="./multimedia.html">Multimédia</a>
+            <a href="./quizz.html">Formulário</a>
+            <a href="./html5-css.html">HTML5 & CSS</a>
+        </nav>        
+        <main class="item3">
         <article>
 
             <p> A maneira como o conteúdo é apresentado ao utilizador é muito importante. É uma parte fundamental da comunicação visual e do desafio que é desenvolver um website. Um layout bem desenhado torna a 
                 informação rápida de consumida e apelativa aos olhos de quem o vê.</p>
 
-            <h2>Abaixo vamos ver vários tipos de layouts:</h2>
-            
+            <h2>Abaixo vamos ver os tipos de layouts mais usados:</h2>
+
+            <h2>1. One-Column Layout</h2>
+            <p>É o mais simple dos layouts, organiza informação em apenas uma coluna. O conteúdo é facil de seguir e é o layout perfeito para dispositivos com uma tela reduzida (ex: smartphone).</p>
+            <picture>
+                <img src="images/one-column-layout.png"<>
+                <figcaption>One-Column Layout. Fotografia retirada <a href="https://www.homeandlearn.co.uk/WD/wds6p4.html">daqui</a></figcaption>
+            </picture>
+
+            <h2>2. Two-Column Layout</h2>
+            <p>É dos layouts mais simples no entanto muito útil, organiza informação em duas coluna. É especialmente útil se queremos repetir uma certa coluna em todas as páginas (ex: barra de navegação).</p>
+            <picture>
+                <img src="images/two-columns-layout.png"<>
+                <figcaption>Two-Column Layout. Fotografia retirada <a href="https://vanseodesign.com/css/2-column-layout-code/">daqui</a></figcaption>
+            </picture>
         </article>
-        <aside>   
+        
+        </main>
+        <aside class="item4">   
             <img src="images/logos_pequenos.png"<>
             <img src="images/wordcloud.png"<>
 
         </aside>
-        </main>
-        <footer>Duarte Cambra, nº21805799, Universidade Lusófona de Humanidades e Tecnologias, 2020/2021</footer>
+        <footer class="item5">Duarte Cambra, nº21805799, Universidade Lusófona de Humanidades e Tecnologias, 2020/2021</footer>
     </div>
+    
 
     
 </body>
