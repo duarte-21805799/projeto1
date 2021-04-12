@@ -34,7 +34,7 @@ body {
     flex: 1;
   }
   li > ul {
-      flex-direction: column;
+      flex-direction: row;
   }
   header, footer {
     background: yellowgreen;
