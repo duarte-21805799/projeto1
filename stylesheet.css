@@ -10,10 +10,13 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 nav {
     display:grid;
     background-color: #d6d6d6e1;
-    ;
 }
 
 body {
@@ -24,12 +27,12 @@ body {
   }
   .col-1 {
     background: #D7E8D4;
-    flex: 1;
+    flex: 0.1;
   }
   .col-2 {
     display: flex;
     flex-direction: column;
-    flex: 5;
+    flex: 20;
   }
   .content {
     display: flex;
@@ -41,7 +44,7 @@ body {
   }
   .content > aside {
     background: beige;
-    flex: 0.9;
+    flex: 0.7;
   }
  
   header {
@@ -55,6 +58,10 @@ body {
   }
   header, article, nav, aside {
     padding: 1.5em;
+  }
+
+  p::first-letter {
+      font-size: 30px;
   }
 
  /* Responsive layout - makes a one column-layout instead of two-column layout */
