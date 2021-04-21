@@ -37,7 +37,7 @@ aside {
   background-color: hsl(0, 0%, 84%);
   max-width: 100%;
 }
-body {
+body, tr {
   text-align: center;
 }
 .grid-container {
@@ -45,7 +45,7 @@ body {
   width: 99%;
   height: 99%;
   grid-template:
-  'menu menu right'
+  'menu menu menu'
   'main main right'
   'footer footer footer';
   grid-gap: 0px;
@@ -63,7 +63,12 @@ nav > a {
 nav > a:hover {
   color: black;
 }
-
+table {
+  text-align: center;
+}
+caption {
+  font-size: 30px;
+}
 
 footer {
   grid-area: footer;
